@@ -30,10 +30,9 @@ use GuzzleHttp\Handler\CurlHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
 use League\OAuth2\Client\Token\AccessToken;
-use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
-class AppleClient {
+class AppleBusinessConnectClient {
 
     const BASE_GRAPH_URL_AQE = 'https://api-qualification.businessconnect.apple.com';
     const BASE_GRAPH_URL_DQE = 'https://data-qualification.businessconnect.apple.com';

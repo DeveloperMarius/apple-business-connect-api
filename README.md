@@ -12,9 +12,9 @@ composer require developermarius/apple-business-connect-api
 ## Usage
 
 ```php
-use DeveloperMarius\AppleBusinessConnectApi\AppleBusinessConnectApi;
+use developermarius\applebusinessconnect\api\AppleBusinessConnectClient;
 
-$api = new AppleBusinessConnectApi('' /* Your client id */, '' /* Your client secret */, '' /* Your company id */);
+$api = new AppleBusinessConnectClient('' /* Your client id */, '' /* Your client secret */, '' /* Your company id */);
 
 $api->getLocations();
 ```
