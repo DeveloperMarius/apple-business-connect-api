@@ -1,6 +1,7 @@
 # Apple Business Connect API
 
-This is a php client for the Apple Business Connect API.
+This is a php client for the Apple Business Connect API.  
+The Apple Business Connect API is a RESTful API that allows you to access information about businesses that are registered with Apple Business Connect.
 
 ## Installation
 
@@ -21,3 +22,4 @@ $api->getLocations();
 ## TODO
 - [ ] Implement new category taxonomy for businesses
 - [ ] Implement OAuth2
+- [ ] Documentation
