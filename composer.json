@@ -1,0 +1,25 @@
+{
+  "name": "developermarius/apple-business-connect-api",
+  "version": "0.0.1",
+  "description": "PHP client for the Apple Business Connect API",
+  "type": "project",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Marius Karstedt",
+      "email": "info@marius-karstedt.de"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "guzzlehttp/guzzle": "^7.0",
+    "developermarius/rp-utils": "dev-main",
+    "league/oauth2-client": "^2"
+  },
+  "autoload": {
+    "psr-4": {
+      "developermarius\\applebusinessconnect\\api\\": "src/"
+    }
+  }
+}
